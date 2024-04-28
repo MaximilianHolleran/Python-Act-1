@@ -1,30 +1,30 @@
 ## Section 1 - variables and functions: 
 
 # Question 1: Create two variables. One should be a string data type, and the other should be of type int.
-name = 'Andres'
-number = 24
+name = 'Max'
+number = 31
 # Use a single print statement to print both variables:
-print(name, number)
+print(name , number)
 
 # Question 2: Create a Python function that prints a greeting with a name as the parameter.
 
 # Invoke the function with a name argument of your choosing:
-def intro(name):
-    print("Waddup", name)
+def mayonaise(name): 
+    print("HEY BRUTHER", name)
 
-intro(name)
+mayonaise(name)
 
 
 ## Section 2 - lists:
 
 # Question 3: Create a list of your favorite movies with  at least 4 elements:
-movies = ['The Prestige', 'Batman', 'Hot Rod', 'The Notebook']
+movies = ['Interstellar', 'Dune', 'Gladiator', 'White Chicks']
 
 # Question 4: Use a print statement to print the list item at the index of 1:
 second_movie = movies[1]
 
 # Question 5: Append a movie to the end of your list:
-movies.append('Big Momma\'s house')
+movies.append('IRON MANE')
 
 # Use a print statement to print this ammended list:
 print(movies)
@@ -36,23 +36,23 @@ print(movies)
 #The keys should be: "color" and "number".
 #Fill out the values on your own:
 cellphone_dict = {
-    "color": "black",
-    "number": "911"
+    "color": "red",
+    "number": "2813308004"
 }
 
 print(cellphone_dict)
 
 # Question 7: Access a value from inside the dictionary (Try to print the value of the 'color' property).
 
-print(cellphone_dict['color'])
+print(cellphone_dict['color'], cellphone_dict['number'])
 
 
 ## Section 4 - strings:
 
 # Question 8: Create a variable and store a string with multiple words in it:
-string = 'hello world'
+mayoMane = 'Spicy mayo is superior'
 # Question 9: Utilize the method that capitalizes the first letter of each word in your string - store this new string in a new variable:
-string_title = string.title()
+string_title = mayoMane.title()
 # Use a print statement to print the new string:
 print(string_title)
 
